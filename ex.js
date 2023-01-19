@@ -97,6 +97,3 @@ app.delete('/api/courses/:id', (req,res)=>{
     }
 
 });
-
-    
-    
