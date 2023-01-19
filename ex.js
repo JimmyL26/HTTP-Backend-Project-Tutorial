@@ -97,3 +97,11 @@ app.delete('/api/courses/:id', (req,res)=>{
     }
 
 });
+
+// HTTP requests allows different programs to communicate with each other
+// in order for them to complete the specific tasks. The GET request allows the user
+// to get the current list of items in the courses which can also be applied to the
+// music project to get a list of songs. The POST request updates the list by adding
+// something new to the list. The PUT request updates a item on the list with a specific
+// value. The DELETE request removes a item from the list. All these request work together
+// on a list, similar to how the music app will work.
